@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import LoadingScreen from "./components/LoadingScreen";
 import Login from "./components/Login";
+import Dashboard from './components/Dashboard';
 
 import './App.css'
 
@@ -16,6 +17,10 @@ function App() {
 
              {/* Telas de autenticação */}
             <Route path="/login" element={<Login />}/>
+
+             {/* Telas do dashboard */}
+             <Route path="/dashboard" element={<Dashboard />}/>
+
     
       </Routes>
         
