@@ -1,0 +1,67 @@
+/* Reset do body para garantir fundo azul total */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #0f172a; /* Azul escuro */
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* Tela de loading ocupa toda a viewport */
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; /* Garante 100% da largura */
+  background-color: #0f172a; /* Azul escuro sólido */
+  color: #ffffff;
+}
+
+/* Centralização */
+.loader {
+  text-align: center;
+}
+
+/* Logo com leve brilho */
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.6));
+}
+
+/* Título da aplicação */
+.loading-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #38bdf8; /* Azul claro */
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Subtítulo */
+.loading-subtitle {
+  font-size: 1.1rem;
+  color: #cbd5e1; /* Cinza claro */
+  margin: 10px 0 30px 0;
+  letter-spacing: 1px;
+}
+
+/* Spinner circular moderno */
+.loading-spinner {
+  width: 55px;
+  height: 55px;
+  border: 4px solid rgba(148, 163, 184, 0.3);
+  border-top: 4px solid #38bdf8;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: spin 1s linear infinite;
+}
+
+/* Animação do spinner */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
