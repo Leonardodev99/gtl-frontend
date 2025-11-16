@@ -18,7 +18,7 @@ function LoadingScreen() {
       <div className="loader">
         <img src={logo} alt="Logo GTL" className="logo" />
         <h1 className="loading-title">GTL</h1>
-        <p className="loading-subtitle">Gestão de Trânsito de Luanda</p>
+        <p className="loading-subtitle">Gestão de Trânsito em Luanda</p>
         <div className="loading-spinner"></div>
       </div>
     </div>

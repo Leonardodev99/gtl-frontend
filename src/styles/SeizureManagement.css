@@ -1,0 +1,68 @@
+.seizure-management {
+  padding: 20px;
+}
+
+.seizure-management h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filters input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.filters select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.seizure-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.seizure-table th,
+.seizure-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.seizure-table th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.status-retido {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.status-liberado {
+  background-color: #dcfce7;
+  color: #15803d;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.no-results {
+  text-align: center;
+  color: #888;
+  padding: 15px 0;
+}

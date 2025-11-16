@@ -1,0 +1,68 @@
+.fine-management {
+  padding: 20px;
+}
+
+.fine-management h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filters input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.filters select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.fine-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.fine-table th,
+.fine-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.fine-table th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.status-paid {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.no-results {
+  text-align: center;
+  color: #888;
+  padding: 15px 0;
+}

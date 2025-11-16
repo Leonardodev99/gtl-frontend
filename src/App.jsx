@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import LoadingScreen from "./components/LoadingScreen";
 import Login from "./components/Login";
 import Dashboard from './components/Dashboard';
+import ForgotPassword from './components/ForgotPassword';
 
 import './App.css'
 
@@ -20,6 +21,9 @@ function App() {
 
              {/* Telas do dashboard */}
              <Route path="/dashboard" element={<Dashboard />}/>
+
+             {/* Telas do recuperação*/}
+             <Route path="/forgot-password" element={<ForgotPassword />}/>
 
     
       </Routes>

@@ -17,7 +17,7 @@ function Login() {
       <div className="login-card">
         <img src={logo} alt="Logo GTL" className="login-logo" />
         <h1 className="login-title">GTL</h1>
-        <p className="login-subtitle">Gestão de Trânsito de Luanda</p>
+        <p className="login-subtitle">Gestão de Trânsito em Luanda</p>
 
         <form onSubmit={handleSubmit}>
           <div className="input-group">
@@ -32,7 +32,13 @@ function Login() {
           </button>
         </form>
 
-        <p className="forgot-password">Esqueceu a senha?</p>
+        <p
+          className="forgot-password"
+          onClick={() => navigate("/forgot-password")}
+        >
+          Esqueceu a senha?
+        </p>
+
       </div>
     </div>
   );

@@ -1,0 +1,178 @@
+.agent-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: "Inter", sans-serif;
+  color: #0f172a;
+  transition: all 0.3s ease-in-out;
+}
+
+.agent-container h2 {
+  margin-bottom: 25px;
+  color: #1e3a8a;
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Formulário */
+.agent-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 25px;
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.agent-form input,
+.agent-form select {
+  flex: 1 1 220px;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.agent-form input:focus,
+.agent-form select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.agent-form button {
+  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+}
+
+.agent-form button:hover {
+  background: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+  transform: translateY(-2px);
+}
+
+/* Tabela */
+.agent-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.agent-table th,
+.agent-table td {
+  text-align: left;
+  padding: 14px 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.agent-table th {
+  background: #1e3a8a;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.agent-table tr:hover {
+  background: #f1f5f9;
+}
+
+/* Status */
+.status {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.status.ativo {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.status.ferias {
+  background: #fef9c3;
+  color: #ca8a04;
+}
+
+.status.inativo {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Botões */
+.edit-btn,
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.edit-btn:hover {
+  color: #2563eb;
+  transform: scale(1.15);
+}
+
+.delete-btn:hover {
+  color: #dc2626;
+  transform: scale(1.15);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .agent-form {
+    flex-direction: column;
+  }
+
+  .agent-table th,
+  .agent-table td {
+    font-size: 0.9rem;
+    padding: 10px 6px;
+  }
+}
+/* 🔍 Filtros */
+.filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.filter-section input,
+.filter-section select {
+  flex: 1 1 200px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.filter-section input:focus,
+.filter-section select:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}

@@ -1,0 +1,65 @@
+.payment-management {
+  padding: 20px;
+}
+
+.payment-management h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.payment-filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.payment-filters input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.payment-filters select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.payment-table th,
+.payment-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.payment-table th {
+  background: #f3f3f3;
+}
+
+.status-pago {
+  background: #d1fae5;
+  color: #065f46;
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.status-pendente {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.no-results {
+  text-align: center;
+  color: #777;
+}
